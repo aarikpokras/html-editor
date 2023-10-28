@@ -1,0 +1,29 @@
+#ra{
+  width: 90vw;
+  height: 200px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 220px;
+  left: 0;
+  padding: 10px;
+}
+textarea{
+  width: 90vw;
+  height: 200px;
+  resize: none;
+  position: absolute;
+  border-radius: 0px;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  border: none;
+  border-left: 1px solid white;
+  border-right: 1px solid black;
+}
+textarea:focus{
+  outline: none;
+  border-left: solid 1px red;
+}
+textarea:focus::placeholder{
+  color: black;
+}
