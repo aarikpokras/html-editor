@@ -20,6 +20,5 @@ jobs:
     - uses: actions/upload-artifact@v2
       name: Upload Artifact
       with:
-        name: htmleditor.zip
+        name: htmleditor
         path: htmleditor.zip
-        
