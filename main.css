@@ -1,4 +1,18 @@
+#run{
+  z-index: 5;
+  position: absolute;
+  top: 210px;
+  font-size: 18pt;
+  background-color: white;
+  border: none;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+#run:hover{
+  border-left: 1px solid red;
+}
 #ra{
+  z-index: 0;
   width: 90vw;
   height: 500px;
   border: 1px solid black;
