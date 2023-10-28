@@ -1,3 +1,33 @@
+img[src="https://raw.githubusercontent.com/aarikpokras/html-editor/master/assets/html.png"], img[src="https://raw.githubusercontent.com/aarikpokras/html-editor/master/assets/css.png"], img[src="https://raw.githubusercontent.com/aarikpokras/html-editor/master/assets/js.png"]{
+  width: 17px;
+  vertical-align: bottom;
+}
+#js{
+  position: absolute;
+  top: 0;
+  left: 60.3vw;
+  height: 20px;
+  width: 100px;
+  z-index: 12;
+  font-family: 'Barlow Condensed', 'Arial', sans-serif;
+}
+#css{
+  position: absolute;
+  top: 0;
+  left: 30.3vw;
+  height: 20px;
+  width: 70px;
+  z-index: 11;
+  font-family: 'Barlow Condensed', 'Arial', sans-serif;
+}
+#html{
+  position: absolute;
+  top: 0;
+  height: 20px;
+  width: 70px;
+  z-index: 10;
+  font-family: 'Barlow Condensed', 'Arial', sans-serif;
+}
 #ta-html, #ta-css, #ta-js{
   font-family: monospace;
   background-color: white;
@@ -36,6 +66,7 @@
   position: absolute;
   border-radius: 0px;
   padding: 10px;
+  padding-top: 20px;
   top: 0;
   left: 30vw;
   border: none;
@@ -56,6 +87,7 @@
   position: absolute;
   border-radius: 0px;
   padding: 10px;
+  padding-top: 20px;
   top: 0;
   left: 60vw;
   border: none;
@@ -76,6 +108,7 @@
   position: absolute;
   border-radius: 0px;
   padding: 10px;
+  padding-top: 20px;
   top: 0;
   left: 0;
   border: none;
