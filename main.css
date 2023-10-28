@@ -7,8 +7,48 @@
   left: 0;
   padding: 10px;
 }
-textarea{
-  width: 90vw;
+#ta-css{
+  width: 30vw;
+  height: 200px;
+  resize: none;
+  position: absolute;
+  border-radius: 0px;
+  padding: 10px;
+  top: 0;
+  left: 30vw;
+  border: none;
+  border-left: 1px solid white;
+  border-right: 1px solid black;
+}
+#ta-css:focus{
+  outline: none;
+  border-left: 1px solid red;
+}
+#ta-css:focus::placeholder{
+  color: black;
+}
+#ta-js{
+  width: 30vw;
+  height: 200px;
+  resize: none;
+  position: absolute;
+  border-radius: 0px;
+  padding: 10px;
+  top: 0;
+  left: 60vw;
+  border: none;
+  border-left: 1px solid white;
+  border-right: 1px solid black;
+}
+#ta-js:focus{
+  outline: none;
+  border-left: 1px solid red;
+}
+#ta-js:focus::placeholder{
+  color: black;
+}
+#ta-html{
+  width: 30vw;
   height: 200px;
   resize: none;
   position: absolute;
@@ -20,10 +60,10 @@ textarea{
   border-left: 1px solid white;
   border-right: 1px solid black;
 }
-textarea:focus{
+#ta-html:focus{
   outline: none;
   border-left: solid 1px red;
 }
-textarea:focus::placeholder{
+#ta-html:focus::placeholder{
   color: black;
 }
