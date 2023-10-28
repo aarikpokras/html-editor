@@ -1,4 +1,4 @@
-name: Remove crap and create articact
+name: Make zip
 
 on:
   push:
@@ -16,7 +16,7 @@ jobs:
       run: rm README.md LICENSE
     - uses: actions/checkout@v3
     - name: Create zip
-      run: zip -r htmleditor.zip index.html main.css script.js
+      run: zip -r htmleditor index.html main.css script.js
     - uses: actions/upload-artifact@v2
       name: Upload Artifact
       with:
