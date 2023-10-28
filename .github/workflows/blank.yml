@@ -1,0 +1,28 @@
+name: Remove crap and create articact
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+env:
+  BUILD_TYPE: Release
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Remove Other Files
+      run: rm README.md LICENSE
+    - uses: actions/checkout@v3
+    - name: Create zip
+      run: zip -r htmleditor.zip index.html main.css script.js
+    - uses: actions/upload-artifact@v2
+      name: Upload Artifact
+      with:
+        name: htmleditor.zip
+        path: htmleditor.zip
+        
